@@ -1,7 +1,7 @@
 body {
     margin: 0;
     border: 0;
-    background-color: #E6E5E5 !important;
+    background-color: #e0d9d9 !important;
 }
 
 .logo {
@@ -139,10 +139,14 @@ body {
     text-align: center;
 }
 .bolso {
-    margin-top: 117px;
+    margin-top: 70px;
+    font-size: 25px;
+    font-weight: bold;
 }
 .siga {
     margin-top: 70px;
+    font-size: 23px;
+    font-weight: bold;
 }
 .td-icones {
     width: 100%;
