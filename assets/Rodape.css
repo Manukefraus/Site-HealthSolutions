@@ -1,0 +1,49 @@
+.rodape{
+    width: 100%;
+    height: 300px;
+    background-color: #BDCDD0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.caixinha{
+    width: 30%;
+    height: 100%;
+    display: block;
+}
+.lg-rodape {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+.bolso {
+    margin-top: 70px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.siga {
+    margin-top: 70px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.td-icones {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icones {
+    width: 25%;
+    height: 100%;
+}
+.linha {
+    min-width: 100%;
+    width: 100%;
+    height: 0.5px;
+    color: black;
+    background-color: black;
+}
+.dev-info {
+    background-color:#BDCDD0;
+}
