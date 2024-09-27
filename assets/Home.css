@@ -1,110 +1,9 @@
-body {
-    margin: 0;
-    border: 0;
-    background-color: #e0d9d9 !important;
-}
-a {
-    text-decoration: none;
-}
-.logo {
-    margin-top: 24px;
-    width: 140px;
-    height: 135px;
-}
-.top{
-    width: 100%;
-    height: 80px;
-    background-color: #5c9da8;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Jost', sans-serif;
-}
 .tudo{
     width: 100%;
     height: 400px;
     text-align: center;
 }
-.itens-header{
-    display: flex;
-    width: 60%;
-    justify-content: space-around;
-}
-.itens-header ul li {
-    height: 80px;
-    list-style: none;
-    display: inline-block;
-    margin-left: 30px;
-    margin-right: 100px;
-    position: relative;
 
-}
-.itens-header ul li  a {
-    font-size: 18px;
-    color: black;
-    line-height: 80px;
-}
-.itens-header ul li:hover .submenu {
-    display: block;
-}
-.submenu {
-    display: none;
-    width: 100%;
-    position: absolute;
-    background-color:#5c9da8;
-    left: 0;
-    top: 80px;
-    text-align: center;
-    border-radius: 4px;
-    margin: 0;
-    padding: 0;
-}
-.submenu li {
-    height: 20px !important;
-    margin-left: 10px !important;
-    margin-right: 10px !important;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-.submenu li a {  
-    font-style: italic;
-    font-size: 20px;
-    line-height: 25px !important;
-}
-.submenu li a:hover {
-    color: #007B92;
-}
-.botoes-header{
-    width: 20%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-.botoes-header ul li {
-    display: inline-block;
-    list-style: none;
-    margin-right: 25px;
-}
-.btn-cadastro{
-    background-color: #5c9da8;
-    padding: 7px;
-    border-radius: 5px;
-    border: solid 1px  #4f5252;
-    display: flex;
-    color: black;
-    font-family: 'Jost', sans-serif;
-}
-.btn-cadastro:hover{
-    background-color: #8BA6AC;
-    color: black;
-    transform: scale(1.0)
-}
-.tudo{
-    width: 100%;
-    height: 400px;
-    text-align: center;
-}
 #myCarousel img {
     width: 100%;
     height: 400px;
@@ -112,6 +11,7 @@ a {
 }
 #myCarousel {
     width: 100%;
+    z-index: -1;
 }
 .box2 {
     width: 100%;
