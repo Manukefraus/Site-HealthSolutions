@@ -1,24 +1,26 @@
 body {
     margin: 0;
     border: 0;
-    background-color: #E6E5E5 !important;
+    background-color:  #eee6e6 !important;
 }
 a {
     text-decoration: none;
     
 }
 .logo {
-    width: 135px;
-    height: 130px;
+    margin-top: 24px;
+    width: 140px;
+    height: 135px;
 }
 .top{
     width: 100%;
     height: 80px;
-    background-color: #BDCDD0;
+    background-color: #5c9da8;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Jost', sans-serif;
 }
 .tudo{
     width: 100%;
@@ -51,7 +53,7 @@ a {
     display: none;
     width: 100%;
     position: absolute;
-    background-color:#d9dfdf;
+    background-color:#5c9da8;
     left: 0;
     top: 80px;
     text-align: center;
@@ -86,48 +88,97 @@ a {
     margin-right: 25px;
 }
 .btn-cadastro{
-    background-color: #BDCDD0;
+    background-color: #5c9da8;
     padding: 7px;
     border-radius: 5px;
-    border: solid 1px  #718c92;
+    border: solid 1px  #4f5252;
     display: flex;
     color: black;
+    font-family: 'Jost', sans-serif;
 }
 .btn-cadastro:hover{
     background-color: #8BA6AC;
-    color: white;
+    color: black;
     transform: scale(1.0)
 }
 .imagem{
     width: 100%;
     z-index: -1;
 }
-.texto1{
-    margin-top: 140px;
-    margin-left: 10%;
-}
-.caixatextoTerapeuta{
-    margin-left: 20%;
-
-}
 .texto1Terapeuta{
-    margin-top: 40%;
-    font-size: 28px;
+    font-size: 20px;
+    margin-right: 25px;
+    font-family: 'Jost', sans-serif;
+    text-align: justify;
+    margin-top: 10%;
 }
 .texto2Terapeuta{
     margin-top: 5%;
-    font-size: 28px;
+    font-size: 20px;
+    margin-right: 25px;
+    font-family: 'Jost', sans-serif;
+    text-align: justify;
 }
 .imgMayara{
     width: 370px;
     height: 370px;
     border-radius: 50%;
     object-fit: cover;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 5%;
 }
 .FotoTexto {
     width: 100%;
     height: 500px;
-    
+    display: flex;
+    flex-direction: row;
+}
+.caixatextoTerapeuta {
+    width: 60%;
+    height: 100%;
+}
+.box-imagem {
+    width: 40%;
+    height: 100%;
+}
+.imagem2{
+    width: 100%;
+    z-index: -1;
+    margin-top: 5%;
+}
+.texto3Terapeuta{
+    font-size: 27px;
+    font-family: 'Jost', sans-serif;
+    text-align: justify;
+}
+.caixatextoTerapeuta2{
+    margin: 0 auto;
+    width: 75%;
+    height: 30%;
+    text-align: center;
+    margin-top: 5%;
+}
+.caixasgeral{
+    width: 100%;
+    height: 285px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.subcaixas{
+    width: 25%;
+    height: 100%;
+    border: solid #BDCDD0 2.5px;
+    padding: 17px;
+    border-radius: 10px;
+    text-align: center;
+}
+.title {
+    color: #47a0b4;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+}
+.textos{
+    font-size: 23px;
+    font-family: 'Jost', sans-serif;
 }
