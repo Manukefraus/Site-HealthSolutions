@@ -35,10 +35,11 @@ body {
 
 }
 .text-meio {
-    width: 100%;
+    width: 80%;
     height: 100px;
     text-align: left;
     margin-top: 30px;
+    margin-left: 40px;
 }
 .txt-mei{
     margin-left: 60px;
@@ -64,8 +65,24 @@ body {
 .pqt-{
     text-align: center;
 }
+.pqt-txt {
+    margin-left: 7px;
+}
 .img-voz {
     width: 50px;
     height: 50px;
-
+    margin-left: 31px;
+}
+.img-gorfo {
+    width: 80px;
+    height: 80px;
+}
+.img-ouvido{
+    width: 60px;
+    height: 60px;
+    margin-left: 21px;
+}
+.img-andando{
+    width: 70px;
+    height: 70px;
 }
