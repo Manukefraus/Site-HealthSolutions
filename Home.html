@@ -1,69 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="assets/Home.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="assets/Rodape.css">
+  <link rel="stylesheet" href="assets/Header.css">
+  <link rel="stylesheet" href="assets/Home.css">
+  <link rel="stylesheet" href="assets/Rodape.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/3661c174df.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header class="top">
-        <img src="assets/img/logoClinica (3).png" alt="" class="logo">
-        <a href="">Nossos Profissionais</a>
-        <a href=""> Nossa História</a>
-        <a href="">Entre em Contato</a>
-        <div class="btn-login">
-            <a href="">Login</a>
+  <header class="top">
+    <a href="Home.html"><img src="assets/img/LogoNova.png" alt="" class="logo"></a>
+    <nav class="itens-header">
+      <ul>
+        <li>
+          <a href="">Nossos Profissionais</a><i class="fa fa-angle-down" aria-hidden="true"></i>
+          <ul class="submenu">
+            <li><a href="#">Psicóloga</a></li>
+            <li><a href="#">Terapeuta Ocupacional</a></li>
+            <li><a href="#">Fonoaudiólogo</a></li>
+            <li><a href="#">Fisioterapeuta</a></li>
+            <li><a href="#">Pilates</a></li>
+          </ul>
+        </li>
+        <li><a href=""> Nossa História</a></li>
+        <li><a href="">Entre em Contato</a></li>
+      </ul>
+    </nav>
+    <nav class="botoes-header">
+      <ul>
+        <li><a href="" class="btn-cadastro">Cadastre-se</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="tudo">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item teste active">
+          <img src="assets/img/Sandra-Crr.jpeg" alt="">
+          <div class="carousel-caption"></div>
         </div>
-        <div class="btn-cadastre">
-            <a href="">Cadastre-se</a>
+        <div class="item teste">
+          <img src="assets/img/Liry-Crr.jpeg" alt="">
+          <div class="carousel-caption"></div>
         </div>
-    </header>
-    <div class="tudo">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="item teste active">
-              <img src="assets/img/Sandra-Crr.jpeg" alt="">
-              <div class="carousel-caption"></div>
+        <div class="item teste">
+          <img src="assets/img/TerapiOCP-Crr.jpeg" alt="">
+          <div class="carousel-caption"></div>
+        </div>
+        <div class="item teste">
+          <img src="assets/img/Bicudo-Crr.jpeg" alt="">
+          <div class="carousel-caption"></div>
+        </div>
+      </div>
+    </div>
+    <div class="box2">
+      <div class="img">
+        <img src="assets/img/Consultorio.jpeg" alt="" class="img-consultorio">
+      </div>
+      <div class="text-agendamento">
+        <p class="text-home">Horários de atendimentos</p>
+        <p>Seg. à Sex: 8h ás 18h</p>
+        <p>Sábado: 8h ás 12h</p>
+        <div class="btn">
+          <a href="" class="text-btn">Agende sua consulta</a>
+        </div>
+      </div>
+    </div>
+    <div class="box3">
+      <div class="text-box3">
+        <p class="txt-cx">Na Clínica Spring Health </p>
+        <span>Oferecemos um atendimento completo e especializado para cuidar da sua saúde e bem-estar. Nossa clínica conta com uma equipe multidisciplinar dedicada a proporcionar o melhor para você.</span>
+      </div>
+      <div class="img-box3">
+        <img src="assets/img/Imagem2-Home.jpeg" alt="" class="imagem2">
+        <img src="assets/img/Imagem1-Home.jpeg" alt="" class="imagem1">
+      </div>
+    </div>
+    <div class="rodape">
+        <div class="caixinha">
+          <img src="assets/img/LogoNova.png" alt="" class="lg-rodape">
+          <div>
+            <span>A clínica foi fundada em 2019 por profissionais especializados na saúde e no bem-estar, com o objetivo de oferecer atendimento de alta qualidade e personalizado para cada paciente.</span>
+          </div>
+        </div>
+        <div class="caixinha">
+          <p class="bolso">Políticas</p>
+          <p>Configuração de cookies </p>
+          <p>Termos e Condições de Navegação</p>
+          <p>Politica de Privacidade</p>
+        </div>
+        <div class="caixinha">
+          <p class="siga">Siga-nos nas nossas redes sociais</p>
+          <div class="td-icones">
+            <div class="icones">
+              <i class="fa-brands fa-facebook"></i>
             </div>
-            <div class="item teste">
-              <img src="assets/img/Liry-Crr.jpeg" alt="">
-              <div class="carousel-caption"></div>
+            <div class="icones">
+              <i class="fa-brands fa-instagram"></i>
             </div>
-            <div class="item teste">
-              <img src="assets/img/TerapiOCP-Crr.jpeg" alt="">
-              <div class="carousel-caption"></div>
+            <div class="icones">
+              <i class="fa-brands fa-tiktok"></i>
             </div>
-            <div class="item teste">
-              <img src="assets/img/Bicudo-Crr.jpeg" alt="">
-              <div class="carousel-caption"></div>
+            <div class="icones">
+              <i class="fa-brands fa-youtube"></i>
             </div>
+          </div>
+          <span class="">Endereço: Rua Pereira Barbosa,319 - Vila Nova, Município de Bariri - SP .Veja nossos canais de atendimento | 14 98122-8703 e 14 3662-5868</span>
         </div>
     </div>
-    <main class="box2">
-        <div>
-            <img src="assets/img/Consultorio.jpeg" alt="" class="img-consultorio" >
-        </div>
-        <div>
-            <p>Horários de atendimentos</p>
-            <p>Seg. à Sex: 8h ás 18h</p>
-            <p>Sábado: 8h ás 12h</p>
-            <div class="btn">
-                <a href="">Agende seu Horário</a>
-            </div>
-        </div>
-    </main>
+    <div class="linha"></div>
+    <div class="dev-info">
+      <p>Desenvolvido a partir das mentes criativas do Health Solutions. Todos os direitos reservados.</p>
+    </div>
 </body>
 
 </html>
