@@ -46,12 +46,15 @@ a {
 .titulo{
     margin-left: 23px;
     margin-top: -40px;
+    font-family: 'Jost', sans-serif;
 }
 .texto {
     margin-left: 23px;
+    font-family: 'Jost', sans-serif;
 }
 .form-input {
     margin-top: 10px;
+    font-family: 'Jost', sans-serif;
 }
 
 .input {
@@ -64,6 +67,7 @@ a {
     padding: 0 0 0 7px;
     margin-top: 5px;
     margin-left: 0px;
+    font-family: 'Jost', sans-serif;
 }
 .input-mensagem{
     border: none;
@@ -75,10 +79,12 @@ a {
     padding: 0 0 0 7px;
     margin-top: 5px;
     margin-left: 0px;
+    font-family: 'Jost', sans-serif;
 }
 .botao {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
+    font-family: 'Jost', sans-serif;
 }
 
 .botaodentro {
@@ -89,11 +95,13 @@ a {
     color: #000000;
     border: 0;
     margin-left: 0px;
+    font-family: 'Jost', sans-serif;
 }
 .textoduvida{
     text-align: center;
     margin-top: 50px;
     font-size: 20px;
+    font-family: 'Jost', sans-serif;
 }
 .td-icons{
     width: 800px;
@@ -112,22 +120,27 @@ a {
 .telefone{
     margin-right: 600px;
     margin-top: -110px;
+    font-family: 'Jost', sans-serif;
 }
 .email{
     margin-right: 210px;
     margin-top: -20px;
+    font-family: 'Jost', sans-serif;
 }
 .whatsapp{
     margin-left: 180px;
     margin-top: -20px;
+    font-family: 'Jost', sans-serif;
 }
 .endereco{
-    margin-left: 560px;
-    margin-top: -20px;
+    margin-left: 580px;
+    margin-top: -25px;
+    font-family: 'Jost', sans-serif;
 }
 .bairro{
-    margin-left: 560px;
+    margin-left: 580px;
     margin-top: -5px;
+    font-family: 'Jost', sans-serif;
 }
 .escritos{
     margin-bottom: 80px;
