@@ -23,31 +23,35 @@ body {
     font-size: 25px;
 }
 .Amanda {
-    width: 200px;
-    height: 200px;
+    width: 270px;
+    height: 270px;
     border-radius: 50%;
     object-fit: cover ;
 }
 .Texto {
     width: 50%;
     height: 100%;
-    margin-top: 100px;
+    margin-top: 75px;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
 
 }
 .text-meio {
     width: 80%;
     height: 100px;
     text-align: left;
-    margin-top: 30px;
+    margin-top: 100px;
     margin-left: 40px;
 }
 .txt-mei{
-    margin-left: 60px;
-    font-size: 20px;
+    margin-left: 18px;
+    font-size: 25px;
+    font-family: 'Jost', sans-serif;
 }
 .txt-meio {
     margin-left: 18px;
     font-size: 18px;
+    font-family: 'Jost', sans-serif;
 }
 .geral-baixo {
     width: 100%;
@@ -67,6 +71,7 @@ body {
 }
 .pqt-txt {
     margin-left: 7px;
+    font-family: 'Jost', sans-serif;
 }
 .img-voz {
     width: 50px;
