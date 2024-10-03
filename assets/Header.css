@@ -6,6 +6,9 @@ body {
 a {
     text-decoration: none;
 }
+a:hover {
+    text-decoration: none;
+}
 .logo {
     margin-top: 24px;
     width: 140px;
