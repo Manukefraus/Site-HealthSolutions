@@ -38,6 +38,7 @@ body {
     width: 100%;
     gap: 8px;
     margin-top: 40px;
+    border: none;
 }
 label{
     font-size: 18px;
