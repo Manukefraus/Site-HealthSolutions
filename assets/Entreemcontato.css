@@ -90,43 +90,28 @@
 }
 .td-icons{
     width: 800px;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    height: 150px;
-    margin-top: 30px;
     justify-content: space-around; 
-    margin-left: 23%;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+}
+.last {
+    margin-bottom: 80px !important;
 }
 .icons{
     width: 25%;
+    height: 30px;
     font-size: 20px;
     margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
 }
-.telefone{
-    margin-right: 600px;
-    margin-top: -110px;
-    font-family: 'Jost', sans-serif;
-}
-.email{
-    margin-right: 210px;
-    margin-top: -20px;
-    font-family: 'Jost', sans-serif;
-}
-.whatsapp{
-    margin-left: 180px;
-    margin-top: -20px;
-    font-family: 'Jost', sans-serif;
-}
-.endereco{
-    margin-left: 580px;
-    margin-top: -25px;
-    font-family: 'Jost', sans-serif;
-}
-.bairro{
-    margin-left: 580px;
-    margin-top: -5px;
-    font-family: 'Jost', sans-serif;
-}
-.escritos{
-    margin-bottom: 80px;
+.icons i {
+    font-size: 20px;
+    color: black;
 }
