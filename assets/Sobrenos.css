@@ -7,6 +7,7 @@ html, nav, div, a{
 body {
     background-color: #F1EFE7 !important;
     font-family: "math" !important;
+    margin: 0;
 }
 .logo2{
     width: 260px;
@@ -31,45 +32,44 @@ body {
     object-fit: cover;
     background-size: cover;
 }
-.box-info{
+.box-infosb{
     width: 80%;
-    height: 500px;
+    height: 650px;
     display: flex;
     justify-content: center;
     text-align: center;
     margin: 0 auto;
     column-gap: 55px;
+    margin-top: 40px;
 }
-.box {
+.boxsb {
     width: 50%;
     height: 500px;;
 }
-.box-titulo {
+.box-titulosb {
     margin-top: 20px;
     font-family: "Baloo-Da";
     font-size: 25px;
     font-weight: bold;
 }
-.box-texto {
+.box-textosb {
     height: 40%;
     text-align: left;
     margin-top: 15px;
 }
-.texto{
+.textosb{
     margin-top: 30px;
     font-size: 18px;
-    
 }
-.info-2{
+.info-2sb{
     width: 100%;
     justify-content: center;
     text-align: center;
-    margin: 0 auto;
-    margin-top: 150px;
+    margin: 0 auto;    
     display: flex;
-    margin-left: 20px;
+    margin-bottom: 30px;
 }
-.box-titulo2 {
+.box-titulo2sb {
     margin-top: 40px;
     margin-bottom: 20px;
     font-family: "Baloo-Da";
@@ -77,28 +77,27 @@ body {
     font-weight: bold;
     text-align: center;
 }
-.q1{
-    width: 20%;
-    
+.q1sb{
+    width: 20%;    
 }
-.q2{
-    width: 20%;
-    justify-content: center;
-    text-align: center;
-    margin-left: 80px;
-}
-.q3{
+.q2sb{
     width: 20%;
     justify-content: center;
     text-align: center;
     margin-left: 80px;
+}
+.q3sb{
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 80px;
     
 }
-.texto-2{
+.texto-2sb{
     font-size: 18px;
     line-height: 30px;
 }
-.linha {
+.linhasb {
     margin-top: 40px;
     width: 0.5 px;
     margin-left: 50px;
