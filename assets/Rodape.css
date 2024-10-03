@@ -21,6 +21,7 @@
     margin-top: 70px;
     font-size: 25px;
     font-weight: bold;
+    font-family: 'Jost', sans-serif;
 }
 .siga {
     margin-top: 70px;
@@ -51,4 +52,7 @@
 }
 .dev-info p {
     margin: 0;
+}
+p{
+    font-family: 'Jost', sans-serif;
 }
